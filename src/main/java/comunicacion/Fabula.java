@@ -10,7 +10,7 @@ public class Fabula extends Escrito {
 		this.interpretacion = interpretacion;
 	}
 	
-	public String getEsenanza() {
+	public String getEnsenanza() {
 		return ensenanza;
 	}
 	public void setEnsenanza(String ensenanza) {
