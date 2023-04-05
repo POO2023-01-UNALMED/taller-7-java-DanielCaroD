@@ -43,7 +43,7 @@ public class Libro extends Escrito{
 	}
 	
 	public int palabrasTotales(int ptotales) {
-		return ptotales;
+		return getPaginas()*ptotales*2;
 	}
 	
 	public String interpretacion() {

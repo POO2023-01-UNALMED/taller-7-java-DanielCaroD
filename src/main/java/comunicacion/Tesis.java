@@ -54,7 +54,7 @@ public class Tesis extends Escrito{
 	}
 	
 	public int palabrasTotales(int ptotales) {
-		return ptotales;
+		return getPaginas()*ptotales*5;
 	}
 	
 	public String interpretacion() {
