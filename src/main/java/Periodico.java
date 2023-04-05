@@ -43,6 +43,7 @@ public class Periodico extends Escrito {
 	}
 	
 	public String toString() {
-		return "holiss";
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + fecha + "\n" + primicia + 
+				"\n" + interpretacion;
 	}
 }

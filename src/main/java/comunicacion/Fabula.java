@@ -33,6 +33,6 @@ public class Fabula extends Escrito {
 	}
 	
 	public String toString() {
-		return "holis";
+		return getOrigen() + "\n" + getTitulo() + "\n" + getPaginas() + "\n" + ensenanza + "\n" + interpretacion ;
 	}
 }

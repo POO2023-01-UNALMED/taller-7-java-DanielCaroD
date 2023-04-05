@@ -62,6 +62,6 @@ public class Tesis extends Escrito{
 	}
 	
 	public String toString() {
-		return "holis";
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + idea + "\n" + argumentos.length + "\n" + conclusion + "\n" + referencias + "\n" + interpretacion;  
 	}
 }

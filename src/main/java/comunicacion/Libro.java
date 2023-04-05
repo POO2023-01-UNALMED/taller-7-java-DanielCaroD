@@ -51,6 +51,7 @@ public class Libro extends Escrito{
 	}
 	
 	public String toString() {
-		return "holis";
+		return getOrigen() + "\n" + getTitulo() + "\n" + getAutor() + "\n" + getPaginas() + "\n" + co_autor + "\n" + 
+	editorial + "\n" + edicion + "\n" + interpretacion; 
 	}
 }
